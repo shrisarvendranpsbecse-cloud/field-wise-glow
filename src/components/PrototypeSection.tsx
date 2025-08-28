@@ -73,57 +73,6 @@ const PrototypeSection = () => {
           ))}
         </div>
 
-        {/* Interactive Demo Placeholder */}
-        <div className="bg-gradient-tech p-12 rounded-2xl shadow-tech">
-          <div className="text-center mb-8">
-            <h3 className="text-3xl font-bold text-white mb-4">
-              Interactive Demo
-            </h3>
-            <p className="text-xl text-white/90 mb-8">
-              Experience our AI-powered crop analysis in action
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <Card className="bg-white/10 backdrop-blur-sm border-white/20">
-              <CardContent className="p-8">
-                <div className="text-center mb-6">
-                  <div className="w-full h-64 bg-white/5 rounded-lg border-2 border-dashed border-white/30 flex items-center justify-center mb-4">
-                    <div className="text-center">
-                      <Upload className="h-12 w-12 text-white/60 mx-auto mb-4" />
-                      <p className="text-white/80 text-lg">Upload Satellite Image</p>
-                      <p className="text-white/60 text-sm">Drag and drop or click to select</p>
-                    </div>
-                  </div>
-                  <Button 
-                    size="lg" 
-                    className="bg-white text-primary hover:bg-white/90 font-semibold"
-                  >
-                    Analyze Field
-                  </Button>
-                </div>
-                
-                <div className="bg-white/5 rounded-lg p-6 text-white">
-                  <h4 className="text-lg font-semibold mb-3">Sample Output:</h4>
-                  <div className="space-y-2 text-sm">
-                    <div className="flex justify-between">
-                      <span>Growth Stage:</span>
-                      <span className="font-medium text-earth-secondary">Vegetative</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Nitrogen Level:</span>
-                      <span className="font-medium text-warning">Low</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Recommendation:</span>
-                      <span className="font-medium text-fertility">Apply Urea (150 kg/ha)</span>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
       </div>
     </section>
   );
