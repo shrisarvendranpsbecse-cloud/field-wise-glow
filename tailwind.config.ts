@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Agricultural theme colors
+				earth: {
+					primary: 'hsl(var(--earth-primary))',
+					secondary: 'hsl(var(--earth-secondary))'
+				},
+				soil: 'hsl(var(--soil-brown))',
+				harvest: 'hsl(var(--harvest-gold))',
+				tech: 'hsl(var(--tech-blue))',
+				fertility: 'hsl(var(--fertility-green))',
+				warning: 'hsl(var(--warning-amber))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +77,16 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-earth': 'var(--gradient-earth)',
+				'gradient-tech': 'var(--gradient-tech)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'tech': 'var(--shadow-tech)',
+				'card': 'var(--shadow-card)'
 			},
 			keyframes: {
 				'accordion-down': {
@@ -84,11 +104,21 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'pulse-slow': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.7' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+				'pulse-slow': 'pulse-slow 2s ease-in-out infinite'
 			}
 		}
 	},
