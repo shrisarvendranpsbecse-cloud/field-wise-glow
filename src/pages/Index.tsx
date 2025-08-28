@@ -4,7 +4,7 @@ import ProblemSection from "@/components/ProblemSection";
 import ImpactSection from "@/components/ImpactSection";
 import DataSourcesSection from "@/components/DataSourcesSection";
 import PrototypeSection from "@/components/PrototypeSection";
-import AgriculturalForm from "@/components/forms/AgriculturalForm";
+
 import ContactForm from "@/components/forms/ContactForm";
 import Footer from "@/components/Footer";
 
@@ -17,7 +17,6 @@ const Index = () => {
       <ImpactSection />
       <DataSourcesSection />
       <PrototypeSection />
-      <AgriculturalForm />
       <ContactForm />
       <Footer />
     </div>
